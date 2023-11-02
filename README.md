@@ -15,4 +15,4 @@ Players draw cards and whoever has the highest value card wins.
 ## Plan
 
 - Card class ♣ ♦ ♥ ♠
-- 
+- different suits have different values too to prevent too many draws
