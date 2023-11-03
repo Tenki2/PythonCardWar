@@ -9,7 +9,7 @@ class cards:
     deck = []
 
     def make_deck(self):
-        suits = ["diamonds", "hearts", "clubs", "spades"]
+        suits = ["diamonds", "hearts", "clubs", "spades"]#change to numbers later
         points = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12" ,"13"]
         for suit in suits:
             for point in points:
@@ -46,7 +46,7 @@ class player:
         self.name = name
         self.score = 0
         self.hand = []
-    
+
     def draw_card(self):
         self.hand = []
         #print(cards.deck[0])
